@@ -6,7 +6,7 @@ public class Auto {
 	String marca;
 	String modelo;
 	Motor motor;
-	asientos [Asiento];
+	Asiento [] asientos;
 	static int cantidadCreados;
 	
 	int cantidadAsientos(){
@@ -24,7 +24,7 @@ public class Auto {
 	String verificarIntegridad()
 	{
 		boolean verificador = true;
-		if (registro.motor!=registro )
+		if (motor.registro !=registro )
 		{	
 			verificador = false;
 		}
