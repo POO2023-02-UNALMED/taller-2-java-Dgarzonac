@@ -38,10 +38,10 @@ public class Auto {
 		}
 		if(verificador)
 		{
-			System.out.println("Auto original");
+			return "Auto original";
 		}
 		else {
-			System.out.println("Las piezas no son originales");
+			return "Las piezas no son originales";
 		}
 		
 	}
