@@ -29,7 +29,7 @@ public class Auto {
 		}
 		for(int i = 0 ; i < asientos.length; i++ )
 		{
-			if (asientos[i] != null  && asientos[i].registro==registro)
+			if (asientos[i] != null  && asientos[i].registro!=registro)
 			{
 				verificador=false;
 				break;
