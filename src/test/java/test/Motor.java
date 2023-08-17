@@ -15,8 +15,5 @@ public class Motor {
 		{
 			this.tipo = tipo
 		}
-		else {
-			
-		}
 	}
 }
